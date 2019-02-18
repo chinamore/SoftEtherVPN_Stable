@@ -30,8 +30,8 @@
 	chmod 700 vpncmd
 	chmod 700 vpnserver
 	#Installing server command
-	wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/vpn-server.sh --no-check-certificate
-	mv vpn-server.sh /etc/init.d/vpnserver
+	wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/vpnserver1.sh --no-check-certificate
+	mv vpnserver1.sh /etc/init.d/vpnserver
 	cd /etc/init.d/
 	chmod 755 vpnserver
 	chkconfig --add vpnserver
@@ -39,7 +39,7 @@
 	cd /usr/local/vpnserver
 	echo ---------------------------------------------
 	echo -e "\033[32;5mVPN SERVER INSTALLED SUCCESSFULLY!\033[0m"
-	echo "SoftEther auto installer by JAYSON VELAGIO"
+	echo "SoftEther auto installer by www.175.es"
 	echo "vpncmd is at /usr/local/vpnserver"
 	echo ---------------Commands----------------------
 	echo /etc/init.d/vpnserver start - to start

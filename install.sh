@@ -16,8 +16,7 @@
 	yum groupinstall "development tools" -y
 	#Downloading server files
 	yum install wget -y
-	wget http://www.softether-download.com/files/softether/v4.27-9666-beta-2018.04.21-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.27-9666-beta-2018.04.21-linux-x64-64bit.tar.gz
-	tar zxf softether-vpnserver-v4.27-9666-beta-2018.04.21-linux-x64-64bit.tar.gz
+	wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.28-9669-beta/softether-vpnserver-v4.28-9669-beta-2018.09.11-linux-x64-64bit.tar.gz
 	cd vpnserver
 	clear
 	echo -e "\033[31;7mNOTE: ANSWER 1 AND ENTER THREE TIMES FOR THE COMPILATION TO PROCEED\033[0m"
@@ -25,13 +24,13 @@
 	make
 	cd /root
 	mv vpnserver /usr/local
-	rm -rf softether-vpnserver-v4.27-9666-beta-2018.04.21-linux-x64-64bit.tar.gz
+	rm -rf softether-vpnserver-v4.28-9669-beta-2018.09.11-linux-x64-64bit.tar.gz
 	cd /usr/local/vpnserver
 	chmod 600 *
 	chmod 700 vpncmd
 	chmod 700 vpnserver
 	#Installing server command
-	wget https://raw.githubusercontent.com/jaysonvelagio/SoftetherAutoInstallMultiPlatform/master/Centos/vpn-server.sh --no-check-certificate
+	wget https://raw.githubusercontent.com/chinamore/SoftEtherVPN_Stable/edit/master/vpn-server.sh --no-check-certificate
 	mv vpn-server.sh /etc/init.d/vpnserver
 	cd /etc/init.d/
 	chmod 755 vpnserver

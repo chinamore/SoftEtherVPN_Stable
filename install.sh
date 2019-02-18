@@ -30,7 +30,7 @@
 	chmod 700 vpncmd
 	chmod 700 vpnserver
 	#Installing server command
-	wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/install.sh --no-check-certificate
+	wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/vpn-server.sh --no-check-certificate
 	mv vpn-server.sh /etc/init.d/vpnserver
 	cd /etc/init.d/
 	chmod 755 vpnserver

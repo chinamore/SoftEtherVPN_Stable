@@ -1,1 +1,41 @@
-yum install wget -y && wget https://raw.githubusercontent.com/chinamore/SoftEtherVPN_Stable/installer.sh && chmod +x installer.sh && ./installer.sh 
+Softether自动安装多平台
+Softether自动安装脚本，适用于多平台更新版本
+Softether VPN服务器最新版本v4.27-9666-beta-2018.04.21
+由于最新版本的编译错误，修改为上次已知的稳定版本
+日本筑波大学的开源VPN项目
+Centos 6或7 x64
+Debian 8（jessie）（不兼容Debian 9（拉伸）x64 - 编译错误）
+Ubuntu 14,15,16 x64 （不兼容Ubuntu 17和18 x64 - 编译错误）
+指令
+选择所需的平台文件夹
+使用wget下载installer.sh或使用ftp转移到根目录
+
+
+通过执行以下命令下载并安装installer.sh 
+
+对于centos和fedora（复制下面的所有代码并粘贴到您的终端上）
+
+yum install wget -y && wget https://gitraw.githubusercontent.com/chinamore/SoftEtherVPN_Stable/installer.sh && chmod +x installer.sh && ./installer.sh 
+
+
+
+对于debian和ubuntu（复制下面的所有代码并粘贴到您的终端上）
+
+wget https://raw.githubusercontent.com/jaysonvelagio/chinamore/SoftEtherVPN_Stable/installer1.sh && chmod +x installer.sh && ./installer.sh
+
+
+
+VPN服务器命令
+/etc/init.d/vpnserver start - to start
+/etc/init.d/vpnserver restart - to restart
+/etc/init.d/vpnserver stop - to stop
+
+
+vpncmd位于/ usr / local / vpnserver
+
+如果无法使用VPN服务器管理器连接到vpn服务器。如果您使用的是Google云，亚马逊AWS，阿里云和数字海洋，请在防火墙仪表板上打开此端口
+
+TCP 443 
+TCP 992 
+TCP 1194 
+TCP 5555

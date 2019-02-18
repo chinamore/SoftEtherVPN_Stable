@@ -1,16 +1,16 @@
 #--------------------------------------------------
-	#Softether auto install script
-	#Centos 7
-	#Created May 25, 2018
-	#Latest Softether Server Version for May 2018 v4.27-9667-beta-2018.05.26-tree
-	#Coded by Jayson Velagio
-	#Open Source Project From https://www.softether.org/
-	#From university of Tsukuba, Japan
-	#--------------------------------------------------
-	#Login with root permission or execute #sudo su
-	#Script start
-	#--------------------------------------------------
-	#Updating centos version
+#Softether auto install script
+#Centos 7
+#Created 2.17, 2019
+#Latest Softether Server Version for May 2018 v4.28-9669-beta-tree
+#Coded by www.175.es
+#Open Source Project From https://www.175.es/
+#--------------------------------------------------
+#Login with root permission or execute #sudo su
+#Script start
+#--------------------------------------------------
+#Updating centos version
+
 	cd /root
 	yum update -y
 	yum groupinstall "development tools" -y

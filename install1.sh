@@ -4,7 +4,7 @@
 #Created 2 17, 2019
 #Latest Softether Server Version for May 2018 v4.27-9667-beta-2018.05.26-tree
 #Coded by www.175.es
-#Open Source Project From https://www.softether.org/
+#Open Source Project From https://www.175.es/
 #--------------------------------------------------
 #Login with root permission or execute #sudo su
 #Script start

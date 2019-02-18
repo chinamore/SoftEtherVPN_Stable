@@ -37,6 +37,10 @@
 	chkconfig --add vpnserver
 	/etc/init.d/vpnserver start
 	cd /usr/local/vpnserver
+	sudo firewall-cmd --zone=public --add-port=5555/tcp --permanent
+	sudo firewall-cmd --zone=public --add-port=443/tcp --permanent
+	sudo firewall-cmd --zone=public --add-port=8888/tcp --permanent
+        sudo firewall-cmd --reload
 	echo ---------------------------------------------
 	echo -e "\033[32;5mVPN SERVER INSTALLED SUCCESSFULLY!\033[0m"
 	echo "SoftEther auto installer by www.175.es"

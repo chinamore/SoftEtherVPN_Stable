@@ -1,6 +1,6 @@
 Softether自动安装多平台
 Softether自动安装脚本，适用于多平台更新版本
-Softether VPN服务器最新版本v4.27-9666-beta-2018.04.21
+Softether VPN服务器最新版本v4.29-9669-beta
 由于最新版本的编译错误，修改为上次已知的稳定版本
 日本筑波大学的开源VPN项目
 Centos 6或7 x64
@@ -15,13 +15,13 @@ Ubuntu 14,15,16 x64 （不兼容Ubuntu 17和18 x64 - 编译错误）
 
 对于centos和fedora（复制下面的所有代码并粘贴到您的终端上）
 
-yum install wget -y && wget https://gitraw.githubusercontent.com/chinamore/SoftEtherVPN_Stable/installer.sh && chmod +x installer.sh && ./installer.sh 
+yum install wget -y && wget https://www.175.es/install/installer.sh && chmod +x installer.sh && ./installer.sh 
 
 
 
 对于debian和ubuntu（复制下面的所有代码并粘贴到您的终端上）
 
-wget https://raw.githubusercontent.com/jaysonvelagio/chinamore/SoftEtherVPN_Stable/installer1.sh && chmod +x installer.sh && ./installer.sh
+wget https://www.175.es/install/installer.sh && chmod +x installer.sh && ./installer.sh
 
 
 

@@ -14,7 +14,7 @@ Ubuntu 14,15,16 x64 （不兼容Ubuntu 17和18 x64 - 编译错误）
 通过执行以下命令下载并安装installer.sh 
 
 对于centos和fedora（复制下面的所有代码并粘贴到您的终端上）
-yum install wget -y && wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/install.sh && chmod +x installer.sh && ./installer.sh 
+yum install wget -y && wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/install.sh && chmod +x install.sh && ./install.sh 
 yum install wget -y && wget https://www.175.es/install/installer.sh && chmod +x installer.sh && ./installer.sh 
 
 

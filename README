@@ -22,7 +22,7 @@ yum install wget -y && wget https://www.175.es/install/installer.sh && chmod +x 
 
 对于debian和ubuntu（复制下面的所有代码并粘贴到您的终端上）
 
-wget https://www.175.es/install/installer.sh && chmod +x installer.sh && ./installer.sh
+wget https://github.com/chinamore/SoftEtherVPN_Stable/blob/master/install1.sh && chmod +x install1.sh && ./install1.sh
 
 
 
